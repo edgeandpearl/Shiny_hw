@@ -1,8 +1,5 @@
 library(shiny)
 
-# Load the ggplot2 package which provides
-# the 'mpg' dataset.
-
 L <- read.csv("all_words.csv", sep = ",")
 # Define the overall UI
 shinyUI(
